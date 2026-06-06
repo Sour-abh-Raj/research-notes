@@ -1,0 +1,26 @@
+.md-grid {
+  max-width: 1020px;
+}
+
+.md-content article {
+  line-height: 1.8;
+}
+
+.arithmatex {
+  overflow-x: auto;
+}
+
+/* Hero section on home page */
+.hero {
+  padding: 2rem 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+}
