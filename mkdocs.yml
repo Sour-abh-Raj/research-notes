@@ -1,11 +1,11 @@
 site_name: Research Notes — Soura Raj
 site_description: A PhD researcher's notebook on quantitative finance, machine learning, and AI systems
-site_url: https://sour-abh-raj.github.io
+site_url: https://sour-abh-raj.github.io/research-notes/
 site_author: Soura Raj
 copyright: Copyright &copy; 2026 Soura Raj
 
-repo_url: https://github.com/Sour-abh-Raj/Sour-abh-Raj.github.io
-repo_name: Sour-abh-Raj/Sour-abh-Raj.github.io
+repo_url: https://github.com/Sour-abh-Raj/research-notes
+repo_name: Sour-abh-Raj/research-notes
 
 theme:
   name: material
