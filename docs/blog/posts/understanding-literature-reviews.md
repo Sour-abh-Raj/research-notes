@@ -177,6 +177,35 @@ is to state findings in context — roughly, "in a sample of A, method B produce
 the view that X causes Y" — so the reader can always judge the *quality and nature* of the evidence
 behind each claim, not just the claim itself.
 
+## A permission you didn't know you had: grey literature
+
+Here's something the paper makes explicit that surprises a lot of students: **you are allowed — in
+fact, encouraged — to use grey literature.** Because a systematic review aims to be *comprehensive*
+and to push back against **publication bias** (the tendency for only statistically significant
+results to ever get published), restricting yourself to peer-reviewed journals can quietly bias the
+whole picture. Grey literature is anything produced outside commercial publishing: technical and
+government reports, working papers, dissertations and theses, conference proceedings, and official
+publications. Including credible unpublished work that meets your inclusion criteria makes a review
+*stronger*, not less legitimate — provided you hold it to the same criteria and record-keeping as
+everything else.
+
+Sources the paper points to:
+
+- **[OpenGrey](http://www.opengrey.eu)** — a European grey-literature database
+- **[OpenDOAR](https://v2.sherpa.ac.uk/opendoar/)** — Directory of Open Access Repositories; searches
+  the open-access repositories of thousands of universities worldwide
+- **WorldCat** — for dissertations and theses
+- **Google and Google Scholar** — surprisingly effective for dissertations and work by societies and
+  charities
+
+A couple I'd add for current research, especially in computing, AI, and the social sciences:
+
+- **[arXiv](https://arxiv.org)** — the preprint server where much of the work in CS, machine learning,
+  and statistics appears *first*, often months before formal publication
+- **[OpenAlex](https://openalex.org)** — a free, open index of hundreds of millions of scholarly
+  works, authors, and citations (the open successor to Microsoft Academic Graph), excellent for
+  comprehensive, programmatic searching
+
 ## Takeaways
 
 If I compress the paper into things to carry forward:
@@ -192,6 +221,8 @@ If I compress the paper into things to carry forward:
 - When stuck, **read existing reviews** to see how others decided.
 - **Absence of evidence and counterexamples are findings.** Reported well, they strengthen the review.
 - **Operationalize, don't summarize** — show a concept's incremental value and where it applies.
+- **Grey literature is allowed** — searching unpublished work (reports, theses, preprints, OpenAlex,
+  arXiv) fights publication bias and strengthens the review.
 
 There is far more nuance in the original — on meta-analysis versus narrative review versus
 meta-synthesis, search strategy, study-quality tools, and the replication-crisis argument for why
