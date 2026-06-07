@@ -198,13 +198,27 @@ Sources the paper points to:
 - **Google and Google Scholar** — surprisingly effective for dissertations and work by societies and
   charities
 
-A couple I'd add for current research, especially in computing, AI, and the social sciences:
+Beyond those, here are the **free, easily usable sources I lean on** for triangulating a literature —
+all open to anyone, and several with clean APIs if you want to search programmatically:
 
 - **[arXiv](https://arxiv.org)** — the preprint server where much of the work in CS, machine learning,
   and statistics appears *first*, often months before formal publication
 - **[OpenAlex](https://openalex.org)** — a free, open index of hundreds of millions of scholarly
   works, authors, and citations (the open successor to Microsoft Academic Graph), excellent for
   comprehensive, programmatic searching
+- **[AIS eLibrary (AISeL)](https://aisel.aisnet.org)** — the canonical repository for Information
+  Systems research: ICIS, ECIS, and the AIS conference and journal ecosystem
+- **[SSRN](https://www.ssrn.com)** — working papers and preprints across management, IS, economics,
+  and the social sciences, where a lot of work circulates well before formal publication
+- **[CORE](https://core.ac.uk)** — aggregates full-text open-access papers from thousands of
+  repositories worldwide; ideal for comprehensive sweeps
+- **[Semantic Scholar](https://www.semanticscholar.org)** — AI-assisted search with a strong free API
+  for reproducible, programmatic searching
+- **[BASE](https://www.base-search.net)** — the Bielefeld Academic Search Engine, one of the largest
+  open-access academic search engines
+
+Triangulating across several of these — rather than trusting any single database — is one of the
+simplest ways to make a search genuinely comprehensive.
 
 ## Takeaways
 
