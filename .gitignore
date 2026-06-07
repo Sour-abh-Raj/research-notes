@@ -1,4 +1,5 @@
 site/
+papers/
 .venv/
 __pycache__/
 *.pyc

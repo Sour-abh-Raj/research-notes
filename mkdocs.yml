@@ -1,16 +1,19 @@
-site_name: Research Notes — Soura Raj
-site_description: A PhD researcher's notebook on quantitative finance, machine learning, and AI systems
+site_name: Research Notes — Sourabh Raj
+site_description: An Information Systems PhD scholar's notebook on AI adoption, trust in AI, organizational technology use, and research methods — one paper unpacked at a time.
 site_url: https://sour-abh-raj.github.io/research-notes/
-site_author: Soura Raj
-copyright: Copyright &copy; 2026 Soura Raj
+site_author: Sourabh Raj
+copyright: Copyright &copy; 2026 Sourabh Raj
 
 repo_url: https://github.com/Sour-abh-Raj/research-notes
 repo_name: Sour-abh-Raj/research-notes
 
 theme:
   name: material
-  logo: material/book-open-page-variant
-  favicon: material/book-open-page-variant
+  language: en
+  custom_dir: overrides
+  icon:
+    logo: material/school
+  favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -38,6 +41,16 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tooltips
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sour-abh-Raj
+      name: GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:1582003sourabh@gmail.com
+      name: Email
+  generator: false
 
 plugins:
   - search
@@ -93,4 +106,6 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
+  - Library: library.md
+  - Topics: tags.md
   - About: about.md

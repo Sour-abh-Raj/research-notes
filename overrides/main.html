@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+<!--
+  Custom head injection for SEO / social sharing.
+  Adds Open Graph, Twitter Card, and JSON-LD structured data on top of
+  Material's defaults (canonical URL + theme-color are already handled).
+-->
+{% block extrahead %}
+  {#- Resolve a clean, absolute URL for the current page -#}
+  {% set page_url = page.canonical_url if page and page.canonical_url else config.site_url %}
+  {#- Per-page description falls back to the site description -#}
+  {% set page_desc = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+  {#- Per-page title -#}
+  {% set page_title = page.title ~ " — " ~ config.site_name if page and page.title and not page.is_homepage else config.site_name %}
+  {#- Social share image: per-page override, else the author's avatar -#}
+  {% set page_image = page.meta.image if page and page.meta and page.meta.image else "https://github.com/Sour-abh-Raj.png" %}
+
+  {#- description + author are already emitted by Material's base template -#}
+  {% if page and page.meta and page.meta.tags %}
+  <meta name="keywords" content="{{ page.meta.tags | join(', ') }}">
+  {% endif %}
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{{ 'article' if page and page.meta and page.meta.date else 'website' }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:image" content="{{ page_image }}">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ page_image }}">
+
+  <!-- JSON-LD structured data -->
+  {% if page and page.meta and page.meta.date %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | tojson }},
+    "description": {{ page_desc | tojson }},
+    "author": {
+      "@type": "Person",
+      "name": {{ config.site_author | tojson }},
+      "url": "https://github.com/Sour-abh-Raj"
+    },
+    "datePublished": {{ page.meta.date | string | tojson }},
+    "image": {{ page_image | tojson }},
+    "mainEntityOfPage": {{ page_url | tojson }},
+    "publisher": {
+      "@type": "Person",
+      "name": {{ config.site_author | tojson }}
+    }
+  }
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ config.site_name | tojson }},
+    "description": {{ config.site_description | tojson }},
+    "url": {{ config.site_url | tojson }},
+    "author": {
+      "@type": "Person",
+      "name": {{ config.site_author | tojson }},
+      "url": "https://github.com/Sour-abh-Raj"
+    }
+  }
+  </script>
+  {% endif %}
+{% endblock %}

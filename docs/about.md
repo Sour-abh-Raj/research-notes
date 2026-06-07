@@ -1,29 +1,35 @@
+---
+description: >-
+  About Sourabh Raj — an Information Systems PhD scholar researching AI adoption
+  and trust in AI within organizational contexts.
+---
+
 # About
 
-I'm **Soura Raj**, a researcher at the intersection of quantitative finance and machine learning,
-beginning my PhD journey in 2026.
+I'm **Sourabh Raj**, a **PhD Scholar in Information Systems (IS)**.
 
-My work spans options market microstructure, open interest dynamics on NSE/BSE,
-deep learning for financial time-series, and AI-assisted research systems.
+My research centers on the **adoption of AI** and **trust in AI** in organizational contexts —
+how people and organizations come to use, rely on, and govern AI systems at work, and what shapes
+the trust that makes that reliance possible (or breaks it).
 
-This blog is my public notebook — a place to work through papers in depth,
-document experiments, and accumulate a body of research notes in the open.
+This blog is my public notebook and knowledge base. I work through papers in depth, connect them to
+the wider literature, and keep the whole reading trail in one place so the ideas accumulate rather
+than evaporate. If a post helps someone else navigate the same literature, even better.
 
 ## Research Interests
 
-- Options pricing and open interest dynamics (NSE/BSE markets)
-- Deep learning and transformers for financial time-series
-- AI systems for research automation and literature synthesis
-- Reinforcement learning for trading strategy
+- Adoption of AI in organizations — antecedents, processes, and outcomes
+- Trust in AI — formation, calibration, repair, and over-/under-reliance
+- The organizational context of technology use — governance, work design, and change
+- Human–AI interaction and decision-making in the workplace
+- Research methods and synthesis — systematic and narrative literature reviews
 
-## Projects
+## How this blog is organized
 
-| Project | Description |
-|---------|-------------|
-| NSE OI Visualizer | Real-time options open interest pipeline |
-| MktStrategy | Multi-factor quant model (OI delta, PCR, momentum) |
-| AI-Researcher | Academic paper research agent (LiteLLM + ChromaDB) |
-| dexter | AI-assisted research and analysis system |
+- The **[Blog](blog/index.md)** holds the articles — each one unpacks a paper or idea in depth.
+- The **[Library](library.md)** is the running map of every paper I read and the article(s) it
+  connects to — a single repository for the knowledge base.
+- **[Topics](tags.md)** lets you browse everything by theme.
 
 ## Contact
 

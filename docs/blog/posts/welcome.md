@@ -28,10 +28,13 @@ Each paper post will follow a rough structure:
 4. **Critical reading** — assumptions, limitations, open questions
 5. **Connections** — how this fits into what I already know
 
-My background is in quantitative finance (NSE/BSE markets, options OI dynamics) and machine learning,
-so the reading list will skew in those directions — but research has a way of pulling you sideways.
+My work is in Information Systems — specifically the adoption of AI and trust in AI in organizational
+contexts — so the reading list will skew toward technology adoption, human–AI interaction, and
+organizational behaviour, with a healthy dose of research methods. But research has a way of pulling
+you sideways.
 
-Posts will also include experiments, derivations, and occasionally some code.
+Posts will also include syntheses, conceptual maps, and occasionally some analysis. And every paper
+I read gets logged in the [Library](../../library.md) so the reading trail stays navigable.
 
 ---
 

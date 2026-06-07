@@ -2,16 +2,22 @@
 hide:
   - navigation
   - toc
+description: >-
+  Research Notes by Sourabh Raj — an Information Systems PhD scholar's working
+  notebook on AI adoption, trust in AI, organizational technology use, and
+  research methods. Each post is a paper unpacked and connected to the wider
+  literature.
 ---
 
 <div class="hero" markdown>
 
 # Research Notes
 
-**Soura Raj** &nbsp;·&nbsp; PhD Researcher
+**Sourabh Raj** &nbsp;·&nbsp; PhD Scholar, Information Systems
 
-A working notebook for quantitative finance, machine learning, and AI research.
-Each post is a paper unpacked, a proof traced, or an experiment written up.
+A working notebook on AI adoption, trust in AI, and the organizational context of
+technology use. Each post unpacks a paper in depth and connects it to the wider
+literature — and the [Library](library.md) keeps the whole reading trail in one place.
 
 [Read the Blog](blog/index.md){ .md-button .md-button--primary }
 &nbsp;&nbsp;
