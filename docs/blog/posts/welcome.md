@@ -10,9 +10,9 @@ tags:
   - phd
 ---
 
-# Starting My Research Notes
+# Starting My Research Blog
 
-I'm beginning my PhD and this blog is my public notebook.
+This blog is a place where I document my research, studies, findings, thoughts, and views.
 
 <!-- more -->
 

@@ -2,6 +2,29 @@
 
 Append new entries at the top. Do not delete or rewrite prior entries unless the user explicitly requests cleanup.
 
+## 2026-06-14 12:55:49 +05:30 - Codex
+
+### Request
+
+The live blog still showed the old welcome excerpt, "I'm beginning my PhD and this blog is my public notebook," and Thoughts were not obvious enough from the Blog page.
+
+### Changes made
+
+- Updated `docs/blog/posts/welcome.md`:
+  - title changed from "Starting My Research Notes" to "Starting My Research Blog"
+  - opening copy changed to describe the blog as a place to document research, studies, findings, thoughts, and views
+- Updated `docs/blog/index.md` with a Thoughts section and direct links to Thought #001 and Thought #002 before the generated blog post list.
+- Updated `state/current-state.md` with this follow-up.
+
+### Verification
+
+```powershell
+uv run mkdocs build --strict --clean
+uv run python scripts\verify_site.py
+```
+
+Both commands passed locally. Rendered checks confirmed `site/blog/index.html` and the welcome post no longer contain `public notebook`, and the Blog page contains direct Thought #001 and Thought #002 links.
+
 ## 2026-06-14 12:46:41 +05:30 - Codex
 
 ### Request

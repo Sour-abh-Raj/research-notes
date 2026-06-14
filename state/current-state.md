@@ -1,11 +1,13 @@
 # Current State
 
-Last updated: 2026-06-14 12:46:41 +05:30
+Last updated: 2026-06-14 12:55:49 +05:30
 Updated by: Codex
 
 ## Summary
 
 The GitHub repository has been renamed to `Sour-abh-Raj/research-blog`, and its GitHub About/description is: "A place where I document my research, my studies, my findings, and my thoughts." Codex added deployment hardening and rendered-site verification so future builds fail if expected blog posts, category pages, Thoughts pages, or core meta output are missing.
+
+The old welcome post copy has been updated so it no longer says "I'm beginning my PhD and this blog is my public notebook." The Blog index now links directly to the Thoughts section and the first two Thought entries.
 
 ## Working tree
 
@@ -37,7 +39,7 @@ Live URL checks returned HTTP 200 and expected content:
 ## Open items
 
 - Changes are local and not yet committed or pushed.
-- Push/deploy verification is in progress after the repository rename.
+- Local build and rendered-site verification passed after the welcome-post and Blog-index copy update. Push/deploy verification is still needed.
 - GitHub CLI is not authenticated in this workspace, so workflow run metadata could not be inspected with `gh run list`.
 - The GitHub Pages repository API endpoint returned 404 without authentication, so direct public URL checks were used instead.
 
