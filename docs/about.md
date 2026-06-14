@@ -10,7 +10,7 @@ I'm **Sourabh Raj**, a **PhD Scholar in Information Systems (IS)** at IIM Sambal
 
 My work explores the **implications of artificial intelligence for society, organizations, and civilization** — how AI is reshaping institutions, work, governance, knowledge, and the fabric of social life. The questions I find most interesting sit at the intersection of technology and larger societal systems: how do organizations come to trust (or distrust) what AI produces? How do institutions adapt — or fail to — when intelligence becomes a distributed, non-human participant? What happens to bureaucracies, professions, and epistemic norms when AI is woven into consequential decisions?
 
-This site is a repository of my research, papers, and thoughts — a place where the work accumulates in public rather than staying locked in private folders.
+This site is a place where I document my research, my studies, my findings, and my thoughts — where the work accumulates in public rather than staying locked in private folders.
 
 ## Research Interests
 

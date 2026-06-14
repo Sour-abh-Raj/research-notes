@@ -1,6 +1,6 @@
 ---
 description: >-
-  Browse Research Notes by topic — AI adoption, trust in AI, organizational
+  Browse Research Blog by topic — AI adoption, trust in AI, organizational
   context, research methods, literature reviews, and more.
 hide:
   - navigation

@@ -7,7 +7,5 @@ __pycache__/
 .DS_Store
 .env
 
-# Claude context/state system — local only, not for version control
-SYSTEMS.md
-context/
-state/
+# Agent coordination/state files are intentionally versioned unless they contain
+# private material. Keep secrets in .env or another ignored local file.

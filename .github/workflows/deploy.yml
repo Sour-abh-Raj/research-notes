@@ -25,11 +25,17 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version-file: pyproject.toml
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
       - name: Install dependencies
-        run: pip install mkdocs-material
+        run: uv sync --locked
       - name: Build site
-        run: mkdocs build --strict
+        run: uv run mkdocs build --strict --clean
+      - name: Verify rendered site
+        run: uv run python scripts/verify_site.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/

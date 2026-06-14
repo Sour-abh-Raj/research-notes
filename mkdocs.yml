@@ -1,11 +1,11 @@
-site_name: Research Notes — Sourabh Raj
-site_description: Research, papers, and thoughts on artificial intelligence — its implications for organizations, society, and civilization.
-site_url: https://sour-abh-raj.github.io/research-notes/
+site_name: Research Blog — Sourabh Raj
+site_description: A place where I document my research, my studies, my findings, and my thoughts.
+site_url: https://sour-abh-raj.github.io/research-blog/
 site_author: Sourabh Raj
 copyright: Copyright &copy; 2026 Sourabh Raj
 
-repo_url: https://github.com/Sour-abh-Raj/research-notes
-repo_name: Sour-abh-Raj/research-notes
+repo_url: https://github.com/Sour-abh-Raj/research-blog
+repo_name: Sour-abh-Raj/research-blog
 
 theme:
   name: material
