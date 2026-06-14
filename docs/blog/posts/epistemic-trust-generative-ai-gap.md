@@ -38,7 +38,7 @@ they believe what the tools *say*. That distinction turned out to be the whole s
     These are early findings from a still-growing corpus, written to be argued with. The bibliometric
     machinery behind them — co-citation maps, BERTopic themes, thematic strategic diagrams — is the
     subject of the [field-manual post](bibliometric-analysis-field-manual.md); here I'm reporting what
-    that machinery started to *show*. The completed study is documented in [Research Log #2](research-log-2-trust-bifurcation-generative-ai.md).
+    that machinery started to *show*. The completed study is documented in [Research Log #2](research-log-2-trust-bifurcation.md).
 
 ## Two different things we call "trust"
 
