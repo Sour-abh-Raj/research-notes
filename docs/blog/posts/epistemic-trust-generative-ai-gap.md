@@ -16,19 +16,17 @@ tags:
   - slr
   - phd
 description: >-
-  A research-log entry from my preliminary SLR: in IS, trust in generative AI is
-  framed almost entirely as an *adoption* problem, while trust in the *output* —
-  an epistemic problem — is studied sparsely and scattered across industries. The
-  gap, and why Mayer's ABI, institutional trust, and Lee & See's calibration may
-  bridge it.
+  In IS, trust in generative AI is framed almost entirely as an *adoption* problem,
+  while trust in the *output* — an epistemic problem — is studied sparsely and
+  scattered across industries. The gap, and why Mayer's ABI, institutional trust,
+  and Lee & See's calibration may bridge it.
 ---
 
 # When Trust Becomes Epistemic: A Gap in How IS Studies Generative AI
 
-This is the first entry in a new **Research Log** — a place to document my own SLR as it actually
-unfolds, arguments and dead-ends included, rather than only the polished methods notes in my
-[Literature Reviews](understanding-literature-reviews.md) series. Think of it as working notes:
-provisional, citable, and revised as the corpus grows.
+This is the first entry in a new **Research Log** — a place to document research as it actually
+unfolds: arguments, dead-ends, emerging findings, and evolving frameworks. Not polished outputs —
+working notes that are provisional, citable, and revised as the work grows.
 
 The question I started from is narrow and, I think, important: **how do organizations come to trust —
 or distrust — the *content that generative AI produces*?** Not whether they adopt the tools. Whether
@@ -40,7 +38,7 @@ they believe what the tools *say*. That distinction turned out to be the whole s
     These are early findings from a still-growing corpus, written to be argued with. The bibliometric
     machinery behind them — co-citation maps, BERTopic themes, thematic strategic diagrams — is the
     subject of the [field-manual post](bibliometric-analysis-field-manual.md); here I'm reporting what
-    that machinery is starting to *show*.
+    that machinery started to *show*. The completed study is documented in [Research Log #2](research-log-2-trust-bifurcation-generative-ai.md).
 
 ## Two different things we call "trust"
 

@@ -1,34 +1,31 @@
 ---
 description: >-
-  About Sourabh Raj — an Information Systems PhD scholar researching AI adoption
-  and trust in AI within organizational contexts.
+  About Sourabh Raj — an Information Systems PhD scholar exploring the implications
+  of artificial intelligence for society, organizations, and civilization.
 ---
 
 # About
 
-I'm **Sourabh Raj**, a **PhD Scholar in Information Systems (IS)**.
+I'm **Sourabh Raj**, a **PhD Scholar in Information Systems (IS)** at IIM Sambalpur.
 
-My research centers on the **adoption of AI** and **trust in AI** in organizational contexts —
-how people and organizations come to use, rely on, and govern AI systems at work, and what shapes
-the trust that makes that reliance possible (or breaks it).
+My work explores the **implications of artificial intelligence for society, organizations, and civilization** — how AI is reshaping institutions, work, governance, knowledge, and the fabric of social life. The questions I find most interesting sit at the intersection of technology and larger societal systems: how do organizations come to trust (or distrust) what AI produces? How do institutions adapt — or fail to — when intelligence becomes a distributed, non-human participant? What happens to bureaucracies, professions, and epistemic norms when AI is woven into consequential decisions?
 
-This blog is my public notebook and knowledge base. I work through papers in depth, connect them to
-the wider literature, and keep the whole reading trail in one place so the ideas accumulate rather
-than evaporate. If a post helps someone else navigate the same literature, even better.
+This site is a repository of my research, papers, and thoughts — a place where the work accumulates in public rather than staying locked in private folders.
 
 ## Research Interests
 
-- Adoption of AI in organizations — antecedents, processes, and outcomes
-- Trust in AI — formation, calibration, repair, and over-/under-reliance
-- The organizational context of technology use — governance, work design, and change
-- Human–AI interaction and decision-making in the workplace
-- Research methods and synthesis — systematic and narrative literature reviews
+- Implications of AI for society, institutions, and civilization
+- AI governance — how organizations and societies manage AI at scale
+- Trust in AI-generated content — epistemic dimensions, calibration, organizational context
+- Institutional dynamics and technology — how societal systems respond to transformative AI
+- Human–AI collaboration in knowledge work
+- Research methods — bibliometric analysis, systematic review, theory development
 
-## How this blog is organized
+## What's here
 
-- The **[Blog](blog/index.md)** holds the articles — each one unpacks a paper or idea in depth.
-- The **[Library](library.md)** is the running map of every paper I read and the article(s) it
-  connects to — a single repository for the knowledge base.
+- The **[Blog](blog/index.md)** holds research entries — papers dissected, findings documented, arguments developed as the work unfolds.
+- **[Thoughts](thoughts/index.md)** is the notebook for proto-theories and research agendas in early form — observations formalized before they become papers.
+- The **[Library](library.md)** maps every paper I read to the articles it connects to.
 - **[Topics](tags.md)** lets you browse everything by theme.
 
 ## Contact

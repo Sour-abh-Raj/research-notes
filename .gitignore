@@ -1,7 +1,13 @@
 site/
 papers/
+content/
 .venv/
 __pycache__/
 *.pyc
 .DS_Store
 .env
+
+# Claude context/state system — local only, not for version control
+SYSTEMS.md
+context/
+state/

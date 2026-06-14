@@ -1,5 +1,5 @@
 site_name: Research Notes — Sourabh Raj
-site_description: An Information Systems PhD scholar's notebook on AI adoption, trust in AI, organizational technology use, and research methods — one paper unpacked at a time.
+site_description: Research, papers, and thoughts on artificial intelligence — its implications for organizations, society, and civilization.
 site_url: https://sour-abh-raj.github.io/research-notes/
 site_author: Sourabh Raj
 copyright: Copyright &copy; 2026 Sourabh Raj
@@ -106,6 +106,10 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
+  - Thoughts:
+    - thoughts/index.md
+    - 'Thought #001 — Social Reproduction of Corruption': thoughts/thought-001-corruption-socialization-loop.md
+    - 'Thought #002 — Adverse Selection in Bureaucracy': thoughts/thought-002-adverse-selection-bureaucracy.md
   - Library: library.md
   - Topics: tags.md
   - About: about.md
